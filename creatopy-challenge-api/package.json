@@ -1,0 +1,28 @@
+{
+  "name": "creatopy-challenge-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
+  },
+  "dependencies": {
+    "@types/pg": "^7.14.11",
+    "@types/uuid": "^8.3.0",
+    "apollo-server": "^2.21.2",
+    "bcrypt": "^5.1.0",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.5.0",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.6.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/node": "^14.14.35",
+    "sequelize-cli": "^6.2.0",
+    "ts-node": "^9.1.1",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.2.3"
+  }
+}

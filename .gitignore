@@ -1,0 +1,6 @@
+.idea/
+.creatopy-challenge/node_modules
+.creatopy-challenge-api/node_modules
+.creatopy-challenge/idea
+.creatopy-challenge-api/idea
+.creatopy-challenge-api/.env
